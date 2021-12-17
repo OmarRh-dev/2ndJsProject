@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .container textarea {
+            position: absolute;
+            top: 3rem;
+            left: 10rem;
+            border: 3px solid lightblue;
+        }
+        .container button {
+            position: absolute;
+            top: 15rem;
+            left: 35rem;
+        }
+        #s {
+            border-radius: 100rem;
+        }
+    </style>
+</head>
+<body>
+    <button id="s">On&Off</button>
+    <div class="container">
+    <textarea name="" id="textarea" cols="40" rows="30"></textarea>
+    <button >Voir Le Resultat</button>
+</div>
+
+
+<script>
+    const p = document.querySelector('#s');
+    s.addEventListener('click', () => {
+        if(document.body.style.backgroundColor == 'black') {
+            document.body.style.backgroundColor = '#f0f0f0';
+        }
+        else {
+            document.body.style.backgroundColor = 'black';
+        }
+    });
+
+    const textarea = document.querySelector('textarea');
+
+    textarea.addEventListener('keyup', () => {
+        
+    });
+
+    
+
+
+</script>
+</body>
+</html>
